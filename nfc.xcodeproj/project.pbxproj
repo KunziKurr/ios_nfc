@@ -11,6 +11,7 @@
 		8DF1CE342A2773D400B57DDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF1CE332A2773D400B57DDA /* ContentView.swift */; };
 		8DF1CE362A2773D900B57DDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DF1CE352A2773D900B57DDA /* Assets.xcassets */; };
 		8DF1CE392A2773D900B57DDA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DF1CE382A2773D900B57DDA /* Preview Assets.xcassets */; };
+		8DF1CE412A27825400B57DDA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8DF1CE402A27825400B57DDA /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		8DF1CE332A2773D400B57DDA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8DF1CE352A2773D900B57DDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DF1CE382A2773D900B57DDA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8DF1CE3F2A2781A800B57DDA /* nfc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = nfc.entitlements; sourceTree = "<group>"; };
+		8DF1CE402A27825400B57DDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,8 @@
 		8DF1CE302A2773D400B57DDA /* nfc */ = {
 			isa = PBXGroup;
 			children = (
+				8DF1CE3F2A2781A800B57DDA /* nfc.entitlements */,
+				8DF1CE402A27825400B57DDA /* Info.plist */,
 				8DF1CE312A2773D400B57DDA /* nfcApp.swift */,
 				8DF1CE332A2773D400B57DDA /* ContentView.swift */,
 				8DF1CE352A2773D900B57DDA /* Assets.xcassets */,
@@ -127,6 +132,7 @@
 			files = (
 				8DF1CE392A2773D900B57DDA /* Preview Assets.xcassets in Resources */,
 				8DF1CE362A2773D900B57DDA /* Assets.xcassets in Resources */,
+				8DF1CE412A27825400B57DDA /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +270,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = nfc/nfc.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"nfc/Preview Content\"";
@@ -275,6 +282,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -293,6 +301,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = nfc/nfc.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"nfc/Preview Content\"";
@@ -304,6 +313,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
